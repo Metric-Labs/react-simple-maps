@@ -16,10 +16,10 @@ jobs:
           node-version: '22.x'
           registry-url: 'https://npm.pkg.github.com'
           # Defaults to the user or organization that owns the workflow file
-          scope: '@organizationName'
+          scope: '@Metric-Labs'
       - name: Install dependencies
         run: yarn
       - name: Publish package
-        run: yarn publish --access restricted
+        run: yarn npm publish --access restricted
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

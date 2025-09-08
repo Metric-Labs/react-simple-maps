@@ -18,6 +18,9 @@
     "type": "git",
     "url": "git+https://github.com/Metric-Labs/react-simple-maps.git"
   },
+  "publishConfig": {
+    "@Metric-Labs:registry": "https://npm.pkg.github.com"
+  },
   "keywords": [
     "react",
     "maps",
