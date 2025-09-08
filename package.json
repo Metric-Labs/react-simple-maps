@@ -1,7 +1,7 @@
 {
   "name": "@Metric-Labs/react-simple-maps",
   "version": "3.0.1",
-  "description": "An svg map chart component built with and for React",
+  "description": "An svg map chart component built with and for React - forked from zcreativelabs/react-simple-maps",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "browser": "dist/index.umd.js",
